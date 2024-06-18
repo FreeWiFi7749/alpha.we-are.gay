@@ -1,11 +1,9 @@
 import { Link } from '@remix-run/react';
 import ShareButtons from '../components/ShareButtons';
-import globalStyles from '../styles/global.css';
 import shareStyles from '../styles/share.css';
 import styleStyles from '../styles/style.css';
 
 export const links = () => [
-  { rel: "stylesheet", href: globalStyles },
   { rel: "stylesheet", href: shareStyles },
   { rel: "stylesheet", href: styleStyles }
 ];
