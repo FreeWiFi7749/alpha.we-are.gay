@@ -1,7 +1,7 @@
 import { Link } from '@remix-run/react';
 import ShareButtons from '../components/ShareButtons';
-import shareStyles from '../styles/share.css';
-import styleStyles from '../styles/style.css';
+import * as shareStyles from '../styles/share.css';
+import * as styleStyles from '../styles/style.css';
 
 export const links = () => [
   { rel: "stylesheet", href: shareStyles },
